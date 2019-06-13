@@ -1,5 +1,5 @@
 FROM daocloud.io/xin_cqu/matlab_config
-MAINTAINER Xin Wen <nclxwen@gmail.com>
+MAINTAINER xiaochengong <xiaochengong@126.com>
 RUN apt-get -y install git
 RUN mkdir -p /script
 RUN cd /script && git clone https://github.com/Xin-cqu/test_docker.git
