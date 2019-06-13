@@ -1,4 +1,4 @@
-FROM daocloud.io/xiaochengong/Docker-matlab-config
+FROM daocloud.io/xin_cqu/matlab_config
 MAINTAINER xiaochengong <xiaochengong@126.com>
 RUN apt-get -y install git
 RUN mkdir -p /script
